@@ -1,0 +1,19 @@
+{
+    "name": "katya/test9.mvc_framework",
+    "description": "Simple MVC_framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katerin",
+            "email": "polkhovskaia.katerina@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
