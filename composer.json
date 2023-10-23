@@ -3,10 +3,10 @@
     "description": "Simple MVC_framework",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
+    "support": {
+        "issues": "https://github.com/Katrin9876/PHP.MVC-framework/issues",
+        "source": "https://github.com/Katrin9876/PHP.MVC-framework",
+        "wiki": "https://github.com/Katrin9876/PHP.MVC-framework/wiki"
     },
     "authors": [
         {
@@ -15,5 +15,23 @@
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "8.1.24|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Main\\": "src/Main"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Main\\Tests\\": "tests/"
+        }
+    }
 }
